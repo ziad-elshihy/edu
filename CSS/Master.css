@@ -484,18 +484,7 @@ nav span:hover {
 
 .sec7 {
    background-color: var(--whitesmoke-color);
-   text-align: center;
-   position: relative;
-   height: 90vh;
-}
-
-.sec7 .clients {
-   padding: 25px 1px;
-   background-color: white;
-}
-
-.sec7 .clients .clients-item {
-   text-align: center;
+   padding: 70px 0;
 }
 
 .clients-item .image {
@@ -508,49 +497,6 @@ nav span:hover {
    border-radius: 50%;
    border: var(--green-color) 5px solid;
 }
-.sec7 h2 {
-   padding: 50px 0;
-   font-size: 42px;
-   font-weight: bold;
-}
-
-.sec7 .im {
-   margin-bottom: 50px;
-}
-
-.sec7 img {
-   width: 125px;
-   border-radius: 50%;
-   border: 4px solid var(--green-color);
-}
-
-.sec7 .active {
-   width: 80%;
-   text-align: center;
-   margin: auto;
-   margin-bottom: 50px;
-}
-
-.sec7 h3 {
-   font-size: 20px;
-}
-
-.sec7 p {
-   font-size: 16px;
-}
-
-.clients-content .slick-dots {
+.carousel-indicators {
    bottom: -50px;
-}
-
-.clients-content .slick-dots li button::before {
-   border: 3px solid var(--dark-color);
-   border-radius: 50%;
-
-}
-
-.clients-content .slick-dots li.slick-active button::before {
-   color: var(--green-color);
-   background-color: var(--green-color);
-   border-color: var(--green-color);
 }
