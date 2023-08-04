@@ -487,16 +487,25 @@ nav span:hover {
    padding: 70px 0;
 }
 
+.sec7 .section-title h1 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: bold;
+   padding: 0 0 40px 0;
+}
+
 .clients-item .image {
    display: flex;
    justify-content: center;
    margin-bottom: 20px;
 }
+
 .clients-item .image img {
    width: 150px;
    border-radius: 50%;
    border: var(--green-color) 5px solid;
 }
+
 .carousel-indicators {
    bottom: -50px;
 }
